@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R u+rwx,g+rwx,o+rwx --reference=file $(find . -type d)
+chmod 777 -R --reference=file
